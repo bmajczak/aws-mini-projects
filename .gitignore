@@ -1,0 +1,26 @@
+# Terraform state files
+image-gallery/terraform/*.tfstate
+image-gallery/terraform/*.tfstate.*
+
+# Terraform backup files
+image-gallery/terraform/*.tfstate.backup
+
+# Terraform plan files
+image-gallery/terraform/*.plan
+
+# Terraform working directory
+image-gallery/terraform/.terraform/
+
+# Local overrides
+image-gallery/terraform/override.tf
+image-gallery/terraform/override.tf.json
+image-gallery/terraform/*_override.tf
+image-gallery/terraform/*_override.tf.json
+
+# Sensitive files
+image-gallery/terraform/terraform.tfvars
+image-gallery/terraform/*.auto.tfvars
+
+# IDE/editor specific files
+image-gallery/terraform/.vscode/
+image-gallery/terraform/.idea/
