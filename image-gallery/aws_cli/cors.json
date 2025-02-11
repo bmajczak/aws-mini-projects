@@ -1,0 +1,12 @@
+{
+    "CORSRules": [
+      {
+        "AllowedHeaders": ["*"],
+        "AllowedMethods": ["GET"],
+        "AllowedOrigins": ["https://static-image-gallery-654.s3.eu-central-1.amazonaws.com"],
+        "ExposeHeaders": [""],
+        "MaxAgeSeconds": 3000
+      }
+
+    ]
+  }

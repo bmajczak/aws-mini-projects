@@ -1,0 +1,8 @@
+{
+    "AllowOrigins": ["http://static-image-gallery-654.s3-website.eu-central-1.amazonaws.com"],
+    "AllowMethods": ["GET"],
+    "AllowHeaders": [],
+    "ExposeHeaders": [],
+    "MaxAge": 3600
+  }
+  
